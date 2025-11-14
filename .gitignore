@@ -1,0 +1,18 @@
+# Arquivos de build do Arduino/ESP32
+*.bin
+*.elf
+*.hex
+*.map
+build/
+cmake-build-*/
+
+# Diretórios da IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Segredos
+secrets.h
+secrets/*.h
